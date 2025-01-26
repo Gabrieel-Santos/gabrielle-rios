@@ -32,8 +32,8 @@ export default function Navbar() {
         </div>
 
         {/* Nome no centro */}
-        <div className="text-xl font-bold tracking-wide font-serif">
-          GABRIELLE RIOS
+        <div className="text-base font-bold tracking-wide font-cinzel">
+          Gabrielle Rios
         </div>
 
         {/* Menu hambúrguer */}
