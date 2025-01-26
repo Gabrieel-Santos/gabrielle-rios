@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faFacebookF,
   faInstagram,
   faLinkedinIn,
   faTiktok,
@@ -15,13 +14,16 @@ export default function Navbar() {
       <div className="max-w-screen-xl mx-auto px-4 flex justify-between items-center h-16">
         {/* Redes sociais */}
         <div className="flex gap-4 items-center">
-          <a href="#" className="hover:text-gray-400">
+          <a
+            href="https://www.instagram.com/gabriellericoz/"
+            className="hover:text-gray-400"
+          >
             <FontAwesomeIcon icon={faInstagram} />
           </a>
-          <a href="#" className="hover:text-gray-400">
-            <FontAwesomeIcon icon={faFacebookF} />
-          </a>
-          <a href="#" className="hover:text-gray-400">
+          <a
+            href="https://www.linkedin.com/in/gabrielle-rios-g77328277/"
+            className="hover:text-gray-400"
+          >
             <FontAwesomeIcon icon={faLinkedinIn} />
           </a>
           <a href="#" className="hover:text-gray-400">
